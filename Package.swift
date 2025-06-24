@@ -17,7 +17,7 @@ dependencies += [.package(url: "https://github.com/swiftlang/swift-syntax.git", 
 let package = Package(
     name: "Swallow",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v13),
         .macOS(.v11),
         .tvOS(.v13),
         .watchOS(.v6)
